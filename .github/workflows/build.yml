@@ -19,4 +19,6 @@ jobs:
     - name: SonarScanner Install
       run: |
           dotnet tool install --global dotnet-sonarscanner
-          ls -la $HOME/.dotnet/tools
+          dotnet sonarscanner begin /k:"ddogadkiney_csharp-netcore-sca-02" 
+          dotnet build src/NopCommerce.sln
+          dotnet sonarscanner end
