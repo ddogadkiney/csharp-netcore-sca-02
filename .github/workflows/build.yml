@@ -30,6 +30,7 @@ jobs:
           export SONAR_SCANNER_HOME=$HOME/.sonar/sonar-scanner-$SONAR_SCANNER_VERSION-linux
           export PATH=$SONAR_SCANNER_HOME/bin:$PATH
           export SONAR_SCANNER_OPTS="-server
+          echo $PATH
           sonar-scanner \
           -Dsonar.organization=ddogadkiney \
           -Dsonar.projectKey=ddogadkiney_csharp-netcore-sca-02 \
