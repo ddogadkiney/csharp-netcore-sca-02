@@ -17,6 +17,7 @@ nopCommerce is cross-platform, and you can run it on Windows, Linux, or Mac.
 
 nopCommerce supports Docker and MySQL out of the box, so you can easily run nopCommerce on a Linux machine.
 
+
 ![Logo](https://www.nopcommerce.com/images/github/logos.png#v1)
 
 nopCommerce architecture follows well-known software patterns and the best security practices. The source code is fully customizable. Pluggable and clear architecture makes it easy to develop custom functionality and follow any business requirements.
@@ -33,6 +34,7 @@ nopCommerce offers powerful [out-of-the-box features](https://www.nopcommerce.co
 nopCommerce is integrated with all the popular third-party services. You can find thousands of integrations on nopCommerce [Marketplace](https://www.nopcommerce.com/marketplace?utm_source=github&utm_medium=content&utm_campaign=github&utm_content=marketplace).
 
 Friendly members of the [nopCommerce community](https://www.nopcommerce.com/boards?utm_source=github&utm_medium=content&utm_campaign=github&utm_content=forum) will always help with advice and share their experiences. nopCommerce core development team provides [professional support](https://www.nopcommerce.com/nopcommerce-premium-support-services?utm_source=github&utm_medium=content&utm_campaign=github&utm_content=support) within 24 hours.
+
 
 
 ## Store demo ##
