@@ -21,4 +21,4 @@ jobs:
           dotnet tool install --global dotnet-sonarscanner
           dotnet sonarscanner begin /k:"ddogadkiney_csharp-netcore-sca-02" /o:"ddogadkiney" /d:sonar.login=11107f0ab88fd2f5827458b9c6fb400205b136c3 /d:sonar.host.url=https://sonarcloud.io
           dotnet build src/NopCommerce.sln
-          dotnet sonarscanner end
+          dotnet sonarscanner end /d:sonar.login=11107f0ab88fd2f5827458b9c6fb400205b136c3
