@@ -34,6 +34,6 @@ jobs:
           -Dsonar.organization=ddogadkiney \
           -Dsonar.projectKey=ddogadkiney_csharp-netcore-sca-02 \
           -Dsonar.sources=. \
-          -Dsonar.exclusions=**/*.sql \
+          -Dsonar.exclusions="**/*.sql" \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=5b7952ff4c3e991f7e9e6729c19d1be8bc75887f
