@@ -4,7 +4,7 @@ on:
   # a pull request. 
   push:
     branches:
-      - develop
+    - develop
   pull_request:
     types: [opened, synchronize, reopened]
 
