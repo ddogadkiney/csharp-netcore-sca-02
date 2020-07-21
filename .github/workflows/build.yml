@@ -19,3 +19,4 @@ jobs:
     - name: SonarScanner Install
       run: |
           dotnet tool install --global dotnet-sonarscanner
+          ls -la $HOME/.dotnet/tools
