@@ -29,7 +29,7 @@ jobs:
           export SONAR_SCANNER_VERSION=4.2.0.1873
           export SONAR_SCANNER_HOME=$HOME/.sonar/sonar-scanner-$SONAR_SCANNER_VERSION-linux
           export PATH=$SONAR_SCANNER_HOME/bin:$PATH
-          export SONAR_SCANNER_OPTS="-server
+          export SONAR_SCANNER_OPTS="-server"
           echo $PATH
           sonar-scanner \
           -Dsonar.organization=ddogadkiney \
